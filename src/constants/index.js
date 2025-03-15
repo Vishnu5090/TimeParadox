@@ -1,170 +1,104 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
-  threejs,
+  treasury,
+  decoration
+ 
 } from "../assets";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "KRANTI",
+    company_name: " Coordinators",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "KRANTI",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "SEYSANTH V",
+      "ARTHY VARSHINI E",
+    ],
+   
+  },
+  {
+    title: "Treasurers",
+    company_name: " Coordinators",
+    icon: treasury,
+    iconBg: "#383E56",
+    date: "Treasurers",
+    points: [
+      "SRIGANESH S",
+      "MEENATCHI V",
+    ],
+   
+  },
+  {
+    title: "Sponsors Team",
+    company_name: "coordinators",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Sponsors Team",
+    points: [
+      "SANTHOSH M",
+      "CHAARUKESH ABHI C H",
+      "JHAYASURI K ",
+      "MATHAN M ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Media Team",
+    company_name: "coordinators",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Media Team",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "MOHIDEEN ABDUL AZIZ M",
+      "KEERTHANA P",
+      "VIKRAM S ",
+      "SHANMUGAHARINI S",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Food Team",
+    company_name: "coordinators",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Food Team",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "MAGESHWARAN R",
+      "MOHAMMED ABRAR",
+      "SRIHARI N",
+      "DINESH P",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Help Desk Team",
+    company_name: "coordinators",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Help Desk Team",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "YUVASREE P",
+      "BHARNI SHREE B",
+      "ABINAYA S",
+      "GNANALAKSHMI R",
+    ],
+  },
+  {
+    title: "Decoration Team",
+    company_name: "coordinators",
+    icon: decoration,
+    iconBg: "#E6DEDD",
+    date: "Decoration Team",
+    points: [
+      "SOORYAPRIYA S ",
+      "ANJANA RAO S",
+      "NIROSHINI S",
+      "SENTAMIL MUKILAN R M",
+      "SRIMATHI E",
+      " VISHANTH V",
     ],
   },
 ];
@@ -198,68 +132,89 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "RAMYA DEVI R",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Full-stack developer",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "react js", color: "blue-text-gradient" },
+      { name: "tailwind", color: "blue-text-gradient" },
+      { name: "PHP", color: "green-text-gradient" },
+      { name: "MySql", color: "green-text-gradient" }
+
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.linkedin.com/in/ramya-devi-ramesh-139841263/",
+    linkedin_link: "https://www.linkedin.com/in/johndoe/",
   },
   {
-    name: "Job IT",
+    name: "VEDHA SREE G ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Front end developer",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react js", color: "blue-text-gradient" },
+      
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "Firebase", color: "green-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link: "https://www.linkedin.com/in/vedha-sree-g-858366245/",
+    linkedin_link: "https://www.linkedin.com/in/janedoe/",
   },
   {
-    name: "Trip Guide",
+    name: "AARTHI A P",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Front end developer",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react js", color: "blue-text-gradient" },
+      { name: "tailwind", color: "green-text-gradient" },
+      { name: "UI/UX", color: "green-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carrent,
+    source_code_link: "https://www.linkedin.com/in/aarthi-arulprakasam-46bab6259/",
+    linkedin_link: "https://www.linkedin.com/in/alexsmith/",
+  },
+  {
+    name: "CHANDAN C S",
+    description:
+      "Full-stack developer",
+    tags: [
+      { name: "react js", color: "blue-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "tailwind", color: "pink-text-gradient" },
+    ],
+    image: carrent,
+    source_code_link: "https://www.linkedin.com/in/c-s-chandan-86a8b2249/",
+    linkedin_link: "https://www.linkedin.com/in/vishnu/",
+  },
+  {
+    name: "THIRUMURUGAN M B",
+    description:
+      "Full-stack developer",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "tensorflow", color: "green-text-gradient" },
+      { name: "django", color: "pink-text-gradient" },
+    ],
+    image: carrent,
+    source_code_link: "https://www.linkedin.com/in/thirumurugan-m-b-7084a6325/",
+    linkedin_link: "https://www.linkedin.com/in/sarah/",
+  },
+  {
+    name: "VISHNUVARDHAN K ",
+    description:
+      "Full-stack developer",
+    tags: [
+      { name: "react js", color: "blue-text-gradient" },
+      { name: "firebase", color: "green-text-gradient" },
+      { name: "PHP and Mysql", color: "pink-text-gradient" },
+    ],
+    image: carrent,
+    source_code_link: "https://www.linkedin.com/in/vish2005/",
+    linkedin_link: "https://www.linkedin.com/in/vishnuvardhan/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+
+
+export { experiences, testimonials, projects };

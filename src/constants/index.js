@@ -5,20 +5,22 @@ import {
   shopify,
   carrent,
   treasury,
-  decoration
+  decoration,
+  arthy,
+  ramya
  
 } from "../assets";
 
 const experiences = [
   {
-    title: "KRANTI",
+    title: "Overall event Coordinators",
     company_name: " Coordinators",
     icon: starbucks,
     iconBg: "#383E56",
     date: "KRANTI",
     points: [
-      "SEYSANTH V",
-      "ARTHY VARSHINI E",
+      "YAZHINI PARVATHAM A",
+      "HARI PRASAD S",
     ],
    
   },
@@ -142,7 +144,7 @@ const projects = [
       { name: "MySql", color: "green-text-gradient" }
 
     ],
-    image: carrent,
+    image: ramya,
     source_code_link: "https://www.linkedin.com/in/ramya-devi-ramesh-139841263/",
     linkedin_link: "https://www.linkedin.com/in/johndoe/",
   },
@@ -169,7 +171,7 @@ const projects = [
       { name: "tailwind", color: "green-text-gradient" },
       { name: "UI/UX", color: "green-text-gradient" },
     ],
-    image: carrent,
+    image: arthy,
     source_code_link: "https://www.linkedin.com/in/aarthi-arulprakasam-46bab6259/",
     linkedin_link: "https://www.linkedin.com/in/alexsmith/",
   },

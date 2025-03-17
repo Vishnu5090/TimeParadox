@@ -8,6 +8,8 @@ import tesla from "./company/tesla.png";
 import github from "./github.png";
 import carrent from "./carrent.jpg";
 import decoration from "./company/decoration.png";
+import arthy from "./arthy.jpg";
+import ramya from "./ramya.jpg";
 
 
 export {
@@ -20,5 +22,7 @@ export {
   tesla,
   carrent,
   treasury,
-  decoration
+  decoration,
+  arthy,
+  ramya
 };
